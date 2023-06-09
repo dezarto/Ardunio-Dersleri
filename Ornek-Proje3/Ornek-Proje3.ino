@@ -15,7 +15,7 @@
 #define BUTTON1 8
 #define BUTTON2 9
 
-int button_input;
+int button_input = 0;
 
 void setup() {
   pinMode(LED1, OUTPUT);
@@ -45,6 +45,7 @@ void loop() {
   
   if (digitalRead(BUTTON2)) {
     button_input = !(button_input);
+    Serial.println(button_input);
     while(digitalRead(BUTTON2)){
       delay(100);
     }
