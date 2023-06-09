@@ -13,28 +13,28 @@ int defaultLed = 13;
 void setup() {
   pinMode(defaultLed, OUTPUT);  // default led
 
-  pinMode(2, led1);  // tek tek girişler tanımlanır
-  pinMode(3, led2);
-  pinMode(4, led3);
-  pinMode(5, led4);
+  pinMode(led1, OUTPUT);  // tek tek girişler tanımlanır
+  pinMode(led2, OUTPUT);
+  pinMode(led3, OUTPUT);
+  pinMode(led4, OUTPUT);
 }
 
 void loop() {
   digitalWrite(defaultLed, HIGH);
 
-  digitalWrite(5, led1);  // ledlerin yanmasını sağlar
-  digitalWrite(2, led2);
-  digitalWrite(3, led3);
-  digitalWrite(4, led4);
+  digitalWrite(led1, HIGH);  // ledlerin yanmasını sağlar
+  digitalWrite(led2, HIGH);
+  digitalWrite(led3, HIGH);
+  digitalWrite(led4, HIGH);
 
   delay(1000);  // 1 saniye bekletir
 
   digitalWrite(13, LOW);
 
-  digitalWrite(5, LOW);  // ledlerin sönmesini sağlar
-  digitalWrite(2, LOW);
-  digitalWrite(3, LOW);
-  digitalWrite(4, LOW);
+  digitalWrite(led1, LOW);  // ledlerin sönmesini sağlar
+  digitalWrite(led2, LOW);
+  digitalWrite(led3, LOW);
+  digitalWrite(led4, LOW);
 
   delay(1000);
 }
