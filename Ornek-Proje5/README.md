@@ -1,3 +1,3 @@
-# LDR Kullanımı
- LDR şeması aşağıda verilmiş olup bu şema baz alınarak gerekli kodlar yazılmıştır. <br/>
-![LDR Şeması](https://raw.githubusercontent.com/dezarto/Ardunio-Dersleri/main/Gerekli%20G%C3%B6rseller/LDR%20%C5%9Eema.PNG)
+# Örnek Proje 4
+ Örnek Proje 4 şeması aşağıda verilmiş olup bu şema baz alınarak gerekli kodlar yazılmıştır. <br/>
+![Örnek Proje 4 Şeması](https://raw.githubusercontent.com/dezarto/Ardunio-Dersleri/main/Gerekli%20G%C3%B6rseller/Ornek%20Proje%204.jpeg)
