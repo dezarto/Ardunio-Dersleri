@@ -1,16 +1,16 @@
 /*
 * Kullanılacak Komponentler:
-    1 tane Breadboard
-    7 tane Led
-    1 tane Buzzer
-    3 tane Button
-    10 tane Drienç
-    1 tane Potansiyometre
-  Uygulama:
-    Button 1'e basıldığı zaman soldan sağa tüm ledler yanar ve ardından söner.
-    Button 2'ye basıldığı zaman soldan sağa doğru ledler yanar ancak bir kere yanan led ardından sönüp devam eder.
-    Button 3'e basıldığı zaman potansiyometre ile ledlerin parlaklığı kontrol edilir.
-    Her bir butona basıldığı zaman butonların yanındaki led bir defa yanıp söner ve bir defa buzzer ile bip sesi duyulur.
+*   1 tane Breadboard
+*   7 tane Led
+*   1 tane Buzzer
+*   3 tane Button
+*   10 tane Drienç
+*   1 tane Potansiyometre
+* Uygulama:
+*   Button 1'e basıldığı zaman soldan sağa tüm ledler yanar ve ardından söner.
+*   Button 2'ye basıldığı zaman soldan sağa doğru ledler yanar ancak bir kere yanan led ardından sönüp devam eder.
+*   Button 3'e basıldığı zaman potansiyometre ile ledlerin parlaklığı kontrol edilir.
+*   Her bir butona basıldığı zaman butonların yanındaki led bir defa yanıp söner ve bir defa buzzer ile bip sesi duyulur.
 * Yazar: dezarto
 * Donanım yardımcısı: lonely Wolf
 * Tarih: 11.06.2023
