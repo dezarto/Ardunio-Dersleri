@@ -13,7 +13,7 @@
   <br/>
   
   `#include<Servo.h>` <br/>
-`Servo servo1` <br/>
+`Servo servo1;` <br/>
 
 `void setup() {` <br/>
 `servo1.attach(5);` <br/>
