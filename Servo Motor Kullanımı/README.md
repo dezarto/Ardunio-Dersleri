@@ -24,11 +24,11 @@ Kodları toparladığımızda aşağıdaki gibi olmalıdır. <br/>
 `#include<Servo.h>` <br/>
 `Servo servo1;` <br/>
 `int aciDegeri=90;` <br/>
- <br/>
+ 
 `void setup() {` <br/>
 ` servo1.attach(5);` <br/>
 `}` <br/>
- <br/>
+ 
 `void loop() {` <br/>
 `servo1.write(aciDegeri);` <br/>
 `}` <br/>
