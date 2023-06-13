@@ -11,9 +11,10 @@
 2. Adım: `Servo motor_ismi;` kodu ile arduinoya bağladığınız servo motora bir isim vererek kodlama içinde kolaylıkla kullanabilirsiniz. <br/>
   `motor_ismi.attach(pwm pin numarası);` kodu ile yukarıdaki kod ile isim verdiğimiz servo motoru arduinoya bağladığımız pin numarasını belirtiyoruz. Örneğin; servo motora `servo1` adını verdiniz ve 5 numaralı pwm pinine bağladınız. Bu durumda kodlar şu şekilde olmalıdır.<br/>
   <br/>
+  
   `#include<Servo.h>` <br/>
 `Servo servo1` <br/>
-<br/>
+
 `void setup() {` <br/>
 `servo1.attach(5);` <br/>
 `}` <br/> 
