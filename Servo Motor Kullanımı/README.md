@@ -11,25 +11,25 @@
 2. Adım: `Servo motor_ismi;` kodu ile arduinoya bağladığınız servo motora bir isim vererek kodlama içinde kolaylıkla kullanabilirsiniz. <br/>
   `motor_ismi.attach(pwm pin numarası);` kodu ile yukarıdaki kod ile isim verdiğimiz servo motoru arduinoya bağladığımız pin numarasını belirtiyoruz. Örneğin; servo motora `servo1` adını verdiniz ve 5 numaralı pwm pinine bağladınız. Bu durumda kodlar şu şekilde olmalıdır.<br/>
   <br/>
-  `#include<Servo.h>`<br/>
-`Servo servo1`<br/>
+  `#include<Servo.h>` <br/>
+`Servo servo1` <br/>
 <br/>
-`void setup() {`<br/>
-`servo1.attach(5);`<br/>
-`}`<br/> 
+`void setup() {` <br/>
+`servo1.attach(5);` <br/>
+`}` <br/> 
 <br/>
 Tanımlamaları yaptıktan sonra `servo1.write(açı_değeri);` kodu ile servo motoru `0-180 derece` arasında istediğimiz bir açı değerine dönmesini sağlayabiliriz. <br/>
 Kodları toparladığımızda aşağıdaki gibi olmalıdır. <br/>
 <br/>
-`#include<Servo.h>`<br/>
-`Servo servo1;`<br/>
-`int aciDegeri=90;`<br/>
+`#include<Servo.h>` <br/>
+`Servo servo1;` <br/>
+`int aciDegeri=90;` <br/>
  <br/>
-`void setup() {`<br/>
-` servo1.attach(5);`<br/>
-`}`<br/>
+`void setup() {` <br/>
+` servo1.attach(5);` <br/>
+`}` <br/>
  <br/>
-`void loop() {`<br/>
-`servo1.write(aciDegeri);`<br/>
-`}`<br/>
+`void loop() {` <br/>
+`servo1.write(aciDegeri);` <br/>
+`}` <br/>
 <br/>
