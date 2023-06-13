@@ -11,4 +11,4 @@ Hazırlayacağımız arduino devresinde VRx pinini A0, VRy pinin A1 analog pinle
 <br/> Joystick arduino bağlantısını aşağıdaki şemayı inceleyerek yapabilirsiniz. <br/>
 ![Joystick Bağlantı Şeması](https://raw.githubusercontent.com/dezarto/Ardunio-Dersleri/main/Gerekli%20G%C3%B6rseller/arduino-joystick-ba%C4%9Flant%C4%B1-devresi.jpg)
 
-### Örnek kod ve açıklamaları dosyasında mevcuttur.
+#### Örnek kod ve açıklamaları `test` dosyasında mevcuttur.
